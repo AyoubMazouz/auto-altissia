@@ -19,8 +19,8 @@ def main():
     print(
         "You may want to mute the video before running the script if you haven't already \n"
     )
-    print(
-        "You have 10 sec before the script start executing, from now on don't touch your mouse and keyboard. \n"
+    input(
+        "Press Enter to start executing, from now on don't touch your mouse and keyboard. \n"
     )
 
     for i in range(3, 0, -1):
