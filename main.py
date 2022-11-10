@@ -100,9 +100,9 @@ def main():
     # Open Firefox.
     print("Opening Firefox.")
     p.hotkey("win")
-    time.sleep(2)
+    time.sleep(5)
     p.typewrite(("firefox"))
-    time.sleep(2)
+    time.sleep(5)
     p.press("enter")
 
     time.sleep(15)
@@ -144,11 +144,11 @@ def main():
 
             # Open another video URL.
             p.hotkey("ctrl", "l")
-            time.sleep(1)
+            time.sleep(3)
             p.typewrite(getRandomVideo())
-            time.sleep(1)
+            time.sleep(3)
             p.press("enter")
-            time.sleep(1)
+            time.sleep(3)
             p.hotkey("ctrl", "r")
 
             time.sleep(5)
