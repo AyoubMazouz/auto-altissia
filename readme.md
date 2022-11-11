@@ -1,5 +1,7 @@
 # Installation:
 
+KEYBOARD LAYOUT MUST BE QUERTY IMPORTANT!
+
 Firefox is nessecery because it's the main browser the script use
 
 Download from here: [Firefox](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiQy8OThNv6AhVDhc4BHeugAicQFnoECBMQAQ&url=https%3A%2F%2Fwww.mozilla.org%2Fen-US%2Ffirefox%2Fnew%2F&usg=AOvVaw0vazKuR14XhwfqVIbMkqKU)
