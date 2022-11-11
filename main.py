@@ -131,7 +131,7 @@ def main():
         timePassed = format((iter * 10) / 60, ".2f")
         resetCounter -= 1
 
-        time.sleep(10)
+        time.sleep(15)
         p.press("left")
 
         print(f"Iteration number: {iter}; Time: {timePassed}mins.")
@@ -144,11 +144,11 @@ def main():
 
             # Open another video URL.
             p.hotkey("ctrl", "l")
-            time.sleep(3)
+            time.sleep(5)
             p.typewrite(getRandomVideo())
-            time.sleep(3)
+            time.sleep(5)
             p.press("enter")
-            time.sleep(3)
+            time.sleep(5)
             p.hotkey("ctrl", "r")
 
             time.sleep(5)
@@ -159,7 +159,7 @@ def main():
                 math.floor(math.floor(SCREEN_SIZE[0] / 2)),
                 math.floor(SCREEN_SIZE[1] / 3),
             )
-
+            time.sleep(3)
             p.click()
 
 
